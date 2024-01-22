@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: aliceblue;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.header
+{
+    width: 1000px;
+    height: 700px;
+    background-image: url("../Images/FoodForMain.jpeg");
+    font-size: 18px;
+    background-position: center;
+    background-color: burlywood;
+    border: 5px ridge black;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.main {
+
+    width: 1000px;
+    height: auto;
+    background-color: antiquewhite;
+    border: 5px ridge black;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: darkblue;
+    color: whitesmoke;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.Flags{
+    width: 350px;
+    height: auto;
+
+}
